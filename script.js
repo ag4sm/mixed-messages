@@ -5,7 +5,7 @@ const holidays = ['New Years Day','Valentines Day',
                     'Independance Day','Labor Day',
                     'Halloween','Christmas'];
 const emotions = ['happy','angry','sad','exasperated','jubilant','scared'];
-const mascots = ['Santa Claus','Easter Bunny','Jesus','Uncle Sam,','Zombie','Witch']
+const mascots = ['Santa Claus','Easter Bunny','Jesus','Uncle Sam','Zombie','Witch']
 
 function randomMessage() {
     let randH = holidays[Math.floor(Math.random() * holidays.length)];
